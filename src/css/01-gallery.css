@@ -41,14 +41,12 @@
   cursor: zoom-in;
 }
 
-
-.gallery {
-  list-style: none;
-  /*padding: 0;
-  margin: 0;*/
+.sl-wrapper {
   display: flex;
-  justify-content: center; /* Вирівнюємо контент по центру */
-  /*flex-wrap: wrap; /* Обгортання елементів, якщо не вистачає місця */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 
