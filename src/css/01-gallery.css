@@ -43,11 +43,18 @@
 
 
 
+
+
+
 .gallery {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; 
+  text-align: center; /* Вирівнюємо вміст по центру */
+}
+
+.gallery::after {
+  content: ''; /* Додаємо пустий контент */
+  display: inline-block; /* Встановлюємо inline-block для вирівнювання по центру */
+  width: 100%; /* Займає 100% ширини */
 }
