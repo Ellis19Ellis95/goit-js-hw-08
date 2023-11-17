@@ -42,14 +42,14 @@
 }
 
 
-/*.gallery {
+.gallery {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center; /* Вирівнюємо контент по центру */
   /*flex-wrap: wrap; /* Обгортання елементів, якщо не вистачає місця */
-/*}
+}
 
 
 
