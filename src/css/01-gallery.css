@@ -42,19 +42,15 @@
 }
 
 
-
-
-
-
-.gallery {
+/*.gallery {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center; /* Вирівнюємо вміст по центру */
-}
+  display: flex;
+  justify-content: center; /* Вирівнюємо контент по центру */
+  /*flex-wrap: wrap; /* Обгортання елементів, якщо не вистачає місця */
+/*}
 
-.gallery::after {
-  content: ''; /* Додаємо пустий контент */
-  display: inline-block; /* Встановлюємо inline-block для вирівнювання по центру */
-  width: 100%; /* Займає 100% ширини */
-}
+
+
+
