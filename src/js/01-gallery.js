@@ -25,8 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
   
     galleryList.insertAdjacentHTML('beforeend', galleryMarkup);
   
-    const lightbox = new SimpleLightbox('.gallery a', {
+    new SimpleLightbox('.gallery a', {
       captionsData: 'alt',
       captionDelay: 250,
+
     });
   });
