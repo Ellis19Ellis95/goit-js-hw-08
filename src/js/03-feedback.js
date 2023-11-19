@@ -3,7 +3,7 @@ import throttle from 'lodash.throttle';
 const form = document.querySelector('.feedback-form');
 const emailInput = form.querySelector('input[name="email"]');
 const messageInput = form.querySelector('textarea[name="message"]');
-const warningBlock = document.querySelector('.warning'); // Блок попередження
+const warningBlock = document.querySelector('.warning'); 
 const STORAGE_KEY = 'feedback-form-state';
 
 const updateStorage = () => {
@@ -37,7 +37,7 @@ form.addEventListener('submit', (event) => {
   };
 
   if (!formData.email || !formData.message) {
-    warningBlock.style.display = 'block'; // Показуємо блок попередження
+    warningBlock.style.display = 'block'; 
     warningBlock.textContent = 'Please fill in all fields';
     return;
   }
@@ -47,5 +47,5 @@ form.addEventListener('submit', (event) => {
   localStorage.removeItem(STORAGE_KEY);
   emailInput.value = '';
   messageInput.value = '';
-  warningBlock.style.display = 'none'; // Приховуємо блок попередження
+  warningBlock.style.display = 'none'; 
 });
